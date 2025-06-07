@@ -1,0 +1,13 @@
+{
+    //"python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_13/bin/python",
+    "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python3_11/bin/python",
+    "files.associations": {
+        "chrono": "c",
+        "typeindex": "c",
+        "typeinfo": "c",
+        "thread": "c"
+    }
+    //"python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_7/bin/python"
+    // "python.condaPath": "/mnt/Installation/Virtual_Environment/Conda3_12/bin/python"
+
+}
