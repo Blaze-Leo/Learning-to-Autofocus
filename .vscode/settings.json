@@ -1,6 +1,6 @@
 {
     //"python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_13/bin/python",
-    "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python3_11/bin/python",
+    "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python_ML/bin/python",
     "files.associations": {
         "chrono": "c",
         "typeindex": "c",
