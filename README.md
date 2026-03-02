@@ -2,7 +2,6 @@
 
 Arxiv Paper - 2004.12260v3
 
-Attempt at implementing the code. Very low expectation since GPU memory is only 4GB. Can't run a good number of epochs on a good number of batches.
-(Very Bad Results with one-to-one checking)
+Attempt at implementing the code. Very low expectation since GPU memory is only 4GB. Can't run a good number of epochs or a good number of batches.
 
-Input dataset is severely compromised, calculated ground truth from the confidence depth maps is not actual truth. Thus unable to continue working with this dataset. This project is now archived. As of now all versions of the code work irrespective of the dataset. 
+It will take some research effort to construct valid patches from the images given in the dataset. Semi-archiving the project for now.
