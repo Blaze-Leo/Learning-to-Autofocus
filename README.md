@@ -1,14 +1,57 @@
+
+---
+
 # Learning-to-Autofocus
 
-Arxiv Paper - 2004.12260v3
+**Reference Paper:** [Learning to Autofocus](https://learntoautofocus-google.github.io/)
 
-Attempt at implementing the code. Very low GPU memory of 4GB is available to me. Can't run the training at 128x128 size patches and thus running at 32x32 size patches.
+This project is an implementation attempt of the Learning-to-Autofocus framework under limited hardware constraints.
 
-Since there are very patches corresponding to label 0 and 41-48, I have removed those from the output and thus my model only outputs logits for labels 1-40.
+---
 
-Training dataset size = 396870
-Testing dataset size = 55949
+## Setup Constraints
 
-Final model has MAE = 1.9641 on Test dataset and ~0.8 on Training and Validation dataset.
+* Available GPU memory: **4 GB**
+* Due to memory limitations:
 
-Heavily edited [Dataset](https://huggingface.co/datasets/blaze-leo/Learning-to-Autofocus)
+  * Training performed on **32×32 patches** instead of 128×128
+* Output space adjusted:
+
+  * Labels **0 and 41–48 removed** (insufficient samples)
+  * Model predicts focus levels in range **1–40**
+
+---
+
+## Dataset
+
+* Training samples: **396,870**
+* Testing samples: **55,949**
+
+Dataset used (modified version):
+[Learning-to-Autofocus Dataset](https://huggingface.co/datasets/blaze-leo/Learning-to-Autofocus)
+
+---
+
+## Results
+
+* **Test MAE:** 1.9641
+* **Train / Validation MAE:** ~0.8
+
+---
+
+## Reproducibility
+
+* Framework: PyTorch
+* GPU: 4GB VRAM
+* Input size: 32×32 patches
+* Output classes: 40 focus levels
+
+---
+
+## Notes
+
+* Significant preprocessing and filtering applied to the dataset
+* Reduced label space improves training stability but disregards some labels
+* Smaller patch size trades spatial context for feasibility on constrained hardware
+
+---
