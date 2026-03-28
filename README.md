@@ -2,8 +2,13 @@
 
 Arxiv Paper - 2004.12260v3
 
-Attempt at implementing the code. Very low expectation since GPU memory is only 4GB. Can't run a good number of epochs at a effective batche size.
+Attempt at implementing the code. Very low GPU memory of 4GB is available to me. Can't run the training at 128x128 size patches and thus running at 32x32 size patches.
 
-It will take some research effort to construct valid patches from the images given in the dataset. Semi-archiving the project for now.
+Since there are very patches corresponding to label 0 and 41-48, I have removed those from the output and thus my model only outputs logits for labels 1-40.
+
+Training dataset size = 396870
+Testing dataset size = 55949
+
+Final model has MAE = 1.9641 on Test dataset and ~0.8 on Training and Validation dataset.
 
 Heavily edited [Dataset](https://huggingface.co/datasets/blaze-leo/Learning-to-Autofocus)
