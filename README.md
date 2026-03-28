@@ -39,15 +39,6 @@ Dataset used (modified version):
 
 ---
 
-## Reproducibility
-
-* Framework: PyTorch
-* GPU: 4GB VRAM
-* Input size: 32×32 patches
-* Output classes: 40 focus levels
-
----
-
 ## Notes
 
 * Significant preprocessing and filtering applied to the dataset
