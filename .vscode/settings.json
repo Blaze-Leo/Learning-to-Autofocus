@@ -1,6 +1,8 @@
 {
-    //"python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_12/bin/python",
-    "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python_ML/bin/python"
+    // "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_12/bin/python"
+    // "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python_ML/bin/python",
+    // "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python_3.12_ROCm/bin/python",
+    "python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environments/Python_3.12/bin/python",
     //"python.defaultInterpreterPath": "/mnt/Installation/Virtual_Environment/Python3_7/bin/python"
     // "python.condaPath": "/mnt/Installation/Virtual_Environment/Conda3_12/bin/python"
 
