@@ -33,6 +33,7 @@ Dataset used (modified version):
 
 * **Train / Validation MAE:** ~1
 * **Test MAE:** ~2
+* The maximum error possible is 40
 
 ---
 
@@ -41,5 +42,4 @@ Dataset used (modified version):
 * Significant preprocessing and filtering applied to the dataset
 * Reduced label space improves training stability but disregards some labels
 * Smaller patch size trades spatial context for feasibility on constrained hardware
-<!-- * [Deepwiki](https://deepwiki.com/Blaze-Leo/Learning-to-Autofocus/1-project-overview) -->
 ---
